@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url(../landingpage/images/background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+header{
+    display: flex;
+   
+    background-color: rgba(31,31,48,255);
+    align-items: center;
+
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 7px;
+    
+
+}
+
+ul a{
+    color: white;
+    text-decoration-line:none;
+    font: 30px;
+    margin: 4px;
+}
+.nav-bar button
+{
+    padding: 6px;
+    background-color: RGB(242 181 56);
+   margin-left: 20px;
+   border-radius: 20px;
+    
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+select{
+    margin-left: 20px;
+    
+}
+.nav-bar{
+    display: flex;
+    padding-left: 80px;
+    
+}
+.main h1{
+
+color: RGB(242 181 56);
+font-size: 60px;
+line-height: 50px;
+
+}
+.main{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+main button{
+    background-color: rgb(64,188,208);
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+
+
+
+/*  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ div{
+    color: aqua;
+ }
+ .m >.m1 > h1{
+    color: blue;
+ }
+ .m>.m2{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    direction: ltr;
+ }
+ .m .m2 a{
+    text-decoration-line: overline;
+ }
+ */
