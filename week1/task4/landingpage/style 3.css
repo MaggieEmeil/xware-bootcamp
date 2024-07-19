@@ -38,10 +38,11 @@ ul a{
 }
 .nav-bar button
 {
-    padding: 6px;
+    padding: 5px;
     background-color: RGB(242 181 56);
    margin-left: 20px;
-   border-radius: 20px;
+   border-radius: 5px;
+   text-align: center;
     
 }
 button:hover{
@@ -50,11 +51,14 @@ button:hover{
 }
 select{
     margin-left: 20px;
+  
+
     
 }
 .nav-bar{
     display: flex;
     padding-left: 80px;
+    padding-top: 10px;
     
 }
 .main h1{
@@ -70,10 +74,34 @@ line-height: 50px;
 }
 main button{
     background-color: rgb(64,188,208);
-    padding: 10px;
+    padding: 8px;
     margin: 10px;
     font-size: 30px;
+    border-radius: 5px;
+
     
+}
+footer h1{
+    font-size: 40px;
+    color: rgb(31,31,48);
+    text-align: center;
+    margin-top: 50px;
+}
+footer h4{
+    text-align: center;
+    margin-left: 240px;
+    color: rgb(31 31 48);
+    width: 60%;
+    margin-top: 20px;
+
+}
+footer .logo1{
+    margin-top: 30px;
+    margin-left: 90px;
+    display: flex;
+    background-color: rgba(148 192 160 0.0);
+    gap: 10px;
+
 }
 
 
