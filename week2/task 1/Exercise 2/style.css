@@ -1,0 +1,134 @@
+*{margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 20px;
+    flex-wrap: row wrap;
+}
+.gg-menu{
+    margin-top: 10px;
+
+}
+main{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+   
+   
+}
+main .card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color:beige;
+    text-align: center;
+    margin-top: 10px;
+    
+    display: inline-block;
+    
+
+  
+}
+.card1 .container{
+    padding: 2px 16px;
+    color: black;
+}
+main .card1 img
+{
+    width:100%; 
+    height:60%;
+}
+main .card1 p{
+    margin-top: 10px;
+}
+.pagination {
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: black;
+    color: white;
+  }
+ section .intro{
+    display: block;
+    justify-content: center;
+    text-align: center;
+   
+    
+    margin-top: 30px;
+
+ }
+ 
+ section .intro img{
+    padding-top: 20px;
+    width: 50%;
+ }
+ section .intro h4{
+    margin-top: 30px;
+ }
+
+ section .intro p{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 70%;
+ }
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    flex-wrap: row wrap;
+    width: 100%;
+}
+footer .left{
+    width: 30%;
+}
+footer .left span{
+    font-size: 30px;
+    margin-top: 30px;
+}
+footer .between{
+    width: 30%;
+    
+    
+}
+footer .between span{
+    font-size: 30px;
+}
+footer .between img{
+    width: 80px;
+    height: 80px;}
+
+.pic{
+    display: flex;
+}
+.pic p{
+    display: block;
+}
+footer .right span{
+    font-size: 30px;
+}
+footer .right a{
+    border: 2px;
+}
