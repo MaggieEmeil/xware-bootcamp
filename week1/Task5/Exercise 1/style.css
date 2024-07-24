@@ -23,14 +23,16 @@ body{
 .main h6{
     color: gray;
 }
-.main .middle span
+.main .middle p
+{
+    color: black;
+}
+.main .middle p::first-line
 {
     color: red;
-
 }
 .main .middle{
     font-size: 15px;
-   
 }
 .middle a{
     color: black;
@@ -41,7 +43,6 @@ body{
 .square{
     display: flex;
     margin-top: 20px;
-    
 }
 .square .square1{
     height: 25px;
@@ -85,8 +86,8 @@ body{
     width: 60px;
     height: 30px;
     padding: 5px;
-    margin-left: 23%;
     text-align: center;
-    margin-top: -55%;
+    top: 23px;
+    left: 350px;
     position: absolute;
   }

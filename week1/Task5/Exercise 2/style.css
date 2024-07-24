@@ -5,108 +5,51 @@
 }
 body{
     background-image: url(images/images.jpeg);
-    width: 100vw;
-    height: 100vh;
+    height: 100vh; 
    background-repeat:no-repeat;
    background-size: cover;
    background-position: center;
-
 }
 .container{
     display: flex;
     text-align: center;
 }
 .left{
-    width: 40%;
-    height: 20%;
+    width: 500px;
+    height: 250px;
     background-color: rgba(204,246,247,0.5);
     margin-top: 50px;
     margin-left: 20px;
+    padding: 20px;
 }
-.right .top .one{
-    width: 40%;
-    height: 20%;
+.main .right{
+    height: 220px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.main .right .one{
+    width: 200px;
     background-color: rgba(204,246,247,0.5);
     margin-left: 50px;
     color: white;
-    padding: 5px;
-  
+    padding-top: 50px;
+    text-align: center;
 }
-.top{
-    display: flex;
-    margin-right: 10px;
-    margin-top: 50px;
-    
-}
-.right .top .two{
-    
+.right .two{   
     background-color: white;
     padding-left: 10px;
-    
     color: black;
     text-align: left;
+    padding-top: 50px;
+    width: 500px;
 }
-.right .top .two a{
+.right .two p{
+    margin-bottom: 20px;
+}
+.right .two a{
     text-decoration: none;
     border-style: solid;
     border-color: black;
-    
-}
-.right .bottom .one{
-    width: 40%;
-    height: 20%;
-    background-color: rgba(204,246,247,0.5);
-    margin-left: 50px;
-    color: white;
-    padding: 5px;
-  
-}
-.right .bottom .two a{
-    text-decoration: none;
-    border-style: solid;
-    border-color: black;
-    
-}
-.bottom{
-    display: flex;
-    margin-right: 10px;
-    margin-top: 50px;
-    
-}
-.right .bottom .two{
-    
-    background-color: white;
-    
-    color: black;
-    text-align: left;
-    padding-left: 10px;
-}
-.right .between .one{
-    width: 40%;
-    height: 20%;
-    background-color: rgba(204,246,247,0.5);
-    margin-left: 50px;
-    color: white;
-    padding: 5px;
-  
-}
-.between{
-    display: flex;
-    margin-right: 10px;
-    margin-top: 50px;
-    
-}
-.right .between .two{
-    
-    background-color: white;
-    padding-left: 10px;
-    
-    color: black;
-    text-align: left;
-}
-.right .between .two a{
-    text-decoration: none;
-    border-style: solid;
-    border-color: black;
-    
+    padding: 10px;
 }
