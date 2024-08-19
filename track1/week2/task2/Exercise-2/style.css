@@ -1,0 +1,510 @@
+       *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: grid;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15px;
+    width: 1415px;
+    height: 80px;
+}
+header img{
+    width: 41px;
+    height: 41px;
+    margin-right: 450px;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 600px;
+    height: 60px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header nav ul li{
+    color:rgba(184, 190, 205, 1);
+}
+header nav ul li:first-child{
+    color: black;
+}
+ header nav .btn1{
+    background-color: white;
+    border: 1px solid rgba(251, 143, 29, 1) ;
+    color:rgba(251, 143, 29, 1);
+    border-radius: 8px;
+    width: 132px;
+    height: 40px;
+    font-size: 15px;
+}
+header nav .btn2{
+    background-color: rgba(251, 143, 29, 1) ;
+    color: white;
+    border: 1px solid white;
+    width: 132px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    width: 1415px;
+    height: 700px;
+}
+.section-1 .holiday-form{
+    display: block;
+}
+.section-1 .holiday-form .Explore-and-Travel{
+    font-family: Playfair Display;
+    font-size: 64px;
+    color:rgba(32, 35, 54, 1);
+    width: 350px;
+    height: 160px;
+}
+.section-1 .holiday-form .form{
+    width: 470px;
+    height: 200px;
+}
+.section-1 .holiday-form .form .holiday-finder{
+    font-size: 22px;
+    color: rgba(32, 35, 54, 1);
+    width: 150px;
+    height: 27px;
+}
+.section-1 .holiday-form .form .locaion{
+   width:220px ;
+   height:52px ;
+   border-radius:6px ;
+   border: 0.8px solid rgba(175, 176, 185, 1);
+   color:rgba(74, 76, 83, 1);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 20px;
+   margin-left: 5px;
+   background-color: white;
+   font-size: 15px;
+   padding: 5px;
+}
+.section-1 .holiday-form .form hr{
+    width: 32px;
+    height: 2px;
+    color:rgba(32, 35, 54, 1) ;
+    margin-top: 10px;
+}
+.section-1 .holiday-form button{
+    width: 180px;
+    height: 70px;
+    color: white;
+    background-color: rgba(251, 143, 29, 1) ;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-1 .logo{
+    width: 600px;
+    height: 600px ;
+}
+ .section-2{
+ width: 1242px;
+height: 550px;
+top: 1091px;
+left: 141px;
+display: grid;
+grid-template-columns: repeat(10,1fr);
+justify-content: space-around;
+gap: 20px;
+
+ }
+ .section-2 .logo{
+width: 659px;
+height: 534px;
+top: 1107px;
+left: 141px;
+grid-area: 1/3/4/5;
+ }
+ .section-2 .a-new-way{
+    width: 481px;
+    height: 333px;
+    top: 1203px;
+    left: 902px;
+    border-radius: 8px;
+    margin-top: 80px;
+    grid-area: 1/8/4/10;
+ }
+ .section-2 .a-new-way .head{
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: left;
+    width: 481px;
+    height: 100px;
+    top: 1203px;
+    left: 902px; 
+ }
+ .section-2 .a-new-way .parag{
+ width: 450px;
+height: 120px;
+top: 1323px;
+left: 902px;
+font-family: Mulish;
+font-size: 19px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+color:rgba(125, 121, 135, 1);
+margin-top: 20px;
+ }
+ .section-2 .a-new-way button{
+    width: 164px;
+    height: 60px;
+    top: 1476px;
+    left: 902px;
+    border-radius: 8px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    background-color: rgba(251, 143, 29, 1);
+    color: white;
+    border:none;
+    margin-top: 30px;
+ }
+ .section-3{
+margin-top: 150px;
+display: grid;
+grid-template-columns: repeat(10,1fr);
+top: 1107px;
+left: 141px;
+grid-template-rows: repeat(4,100px);
+gap: 10px;
+ }
+ .section-3 .Featured-destinations{
+font-family: Playfair Display;
+font-size: 36px;
+line-height: 50px;
+color:rgba(0, 0, 0, 1);
+grid-area: 1/2/2/6;
+ }
+ .section-3 .view-all{
+top: 1933px;
+left: 1281px;
+font-family: Inter;
+font-size: 17px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+color:rgba(251, 143, 29, 1);
+grid-area: 1/9/2/10;
+ }
+ .section-3 .view-all img{
+    color:rgba(251, 143, 29, 1);
+    margin-left: 5px;
+ }
+ .section-3 .card1{
+    top: 2039px;
+    grid-area: 2/2/4/4;
+    left: 240px;
+ }
+ .section-3 .card2{
+    height: 337px; 
+    top: 2039px;
+    grid-area: 2/4/4/6;
+    left: 240px;
+ }
+ .section-3 .card3{
+    width: 261px;
+    height: 337px;
+    top: 2039px;
+    grid-area: 2/6/4/8;
+    left: 240px;
+ }
+ .section-3 .card4{
+    width: 261px;
+    height: 337px;
+    top: 2039px;
+    grid-area: 2/8/4/10;
+    left: 240px;
+ }
+ .section-4{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 1205.57px;
+    height: 542px;
+    top: 2608px;
+    left: 240px;
+ }
+ .section-4 .Guide{
+width: 481px;
+height: 303px;
+top: 2760px;
+left: 240px;
+border-radius: 8px ;
+grid-area: 2/3/3/4;
+ }
+ .section-4 .Guide .head{
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+text-align: left;
+ }
+ .section-4 .Guide .parag{
+    font-family: Mulish;
+font-size: 17px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+color:  rgba(125, 121, 135, 1);
+margin-top: 30px;
+ }
+ .section-4 .Guide button{
+    width: 164px;
+height: 48px;
+top: 3009px;
+left: 240px;
+border-radius: 8px;
+opacity: 0px;
+background-color: rgba(251, 143, 29, 1);
+color: white;
+border:none;
+margin-top: 40px;
+ }
+ .section-4 img{
+    grid-area: 1/5/4/19;
+ }
+ .section-5{
+top: 3398px;
+left: 96px;
+grid-template-columns: repeat(10,110px);
+display: grid;
+grid-template-rows: repeat(10,50px);
+margin-top: 200px;
+ }
+ .section-5 .head{
+    grid-area: 1/3/3/5;
+    font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+width: 25.02px;
+height: 24px;
+top: 3593px;
+left: 322px;
+ }
+ .section-5 .stars{
+    width: 189.02px;
+    height: 24px;
+    top: 3593px;
+    left: 240px;
+    grid-area: 3/3/4/5;
+    margin-top: 30px;
+    gap: 10px;
+ }
+ .section-5 .parag{
+    width: 450px;
+height: 144px;
+top: 3647px;
+left: 240px;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+grid-area: 5/3/6/5;
+margin-top: 20px;
+ }
+ .section-5 .name{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    grid-area:9/3/10/5;
+    margin-top: 20px;
+    line-height: 1;
+ }
+ .section-5 .name2{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color:rgba(0, 0, 0, 0.85);
+    grid-area:10/3/11/5;
+   }
+ .section-5 .logo{
+    width: 416.84px;
+height: 522.98px;
+top: 3491px;
+left: 859.16px;
+grid-area: 3/8/6/10;
+ }
+ .section-6{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    margin-top: 400px;
+    grid-template-rows: repeat(6,30px);
+ }
+ .section-6 .Trending-stories{
+    font-family: Playfair Display;
+font-size: 36px;
+font-weight: 700;
+line-height: 50px;
+text-align: left;
+grid-area: 1/2/3/5 ;
+ }
+ .section-6 .view-all{
+    width: 79px;
+height: 60px;
+top: 4284px;
+left: 1281px;
+color:rgba(251, 143, 29, 1);
+grid-area: 1/9/3/10;
+align-content: center;
+ }
+ .section-6 .card1{
+    grid-area: 4/2/6/4;
+    width: 266px;
+height: 446px;
+top: 4390px;
+left: 240px;
+gap: 0px;
+opacity: 0px;
+ }
+ .section-6 .card2{
+    grid-area: 4/4/6/6;
+ }
+ .section-6 .card3{
+    grid-area: 4/6/6/8;
+ }
+ .section-6 .card4{
+    grid-area: 4/8/6/10;
+ }
+ .footer{
+   display: grid;
+   grid-template-columns:repeat(10,1fr);
+   margin-top: 600px;
+   grid-template-rows: repeat(8,1fr);
+   background-color: rgba(249, 249, 251, 1);
+ }
+ .footer .ts{
+   grid-area: 2/2/6/4;
+    display: grid;
+    grid-template-columns:repeat(10,1fr);
+ }
+ .footer .ts img{
+   grid-area:1/1/2/5 ;
+ }
+.footer .ts .parag
+{
+   grid-area: 2/1/3/3;
+   color: rgba(132, 132, 132, 1);
+   font-family: Mulish;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 28px;
+   text-align: left;
+   width: 391px;
+   height: 84px;
+   top: 5255px;
+   left: 190px;
+}
+.footer .ts .parag2
+{
+   grid-area: 3/1/4/5;
+   color: rgba(132, 132, 132, 1);
+   font-family: Mulish;
+font-size: 17px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+}
+.footer .destination{
+   grid-area: 2/5/6/6;
+}
+.footer .destination .title{
+   font-family: Mulish;
+   font-size: 19px;
+   font-weight: 700;
+   line-height: 60px;
+   text-align: left;
+}
+.footer .destination .countries{
+   font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 38px;
+text-align: left;
+color: rgba(132, 132, 132, 1);
+}
+.footer .shop{
+   grid-area: 2/7/6/8;
+}
+.footer .shop .title{
+   font-family: Mulish;
+font-size: 19px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+.footer .shop .categories{
+   font-family: Mulish;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 38px;
+   text-align: left;
+   color: rgba(132, 132, 132, 1);
+}
+.footer .interest{
+   grid-area:2/9/6/10;
+}
+.footer .interest .title{
+   font-family: Mulish;
+font-size: 19px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+.footer .interest .categories{
+   font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 38px;
+text-align: left;
+color: rgba(132, 132, 132, 1);
+}
+.footer span{
+   width: 1219px;
+top: 5503px;
+left: 191px;
+gap: 0px;
+opacity: 0px;
+grid-area: 6/2/7/11;
+color: rgba(196, 196, 196, 1);
+}
+.footer .social-media{
+   margin-top: 30px;
+   grid-area:6/4/7/8;
+   gap: 20px;
+   justify-self: center;
+}
+.footer .social-media i{
+   margin-right: 20px;
+}
