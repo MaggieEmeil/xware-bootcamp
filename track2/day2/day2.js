@@ -56,13 +56,12 @@
 
 
   //5)Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
- 
+//  function num(){
 // let x=531642;
 // let y=x.toString();
 // let z=y.split("")
 // let arr=z.sort();
 // let newarr=arr.reverse();
-// let thenew=newarr.map(Number);
-
-// let newest=thenew.join('');
-// console.log(typeof(newest));
+// let newest=+newarr.join('');
+// console.log(newest);}
+// num();
